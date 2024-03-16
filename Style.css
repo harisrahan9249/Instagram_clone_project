@@ -1,21 +1,63 @@
+@import url('https://fonts.cdnfonts.com/css/instagram-sans-2');
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Instagram Sans', sans-serif;
 }
 .container{
     display: flex;
     overflow: hidden;
 }
 .sidebar{
-    width: 20vh;
+    width: 20vw;
     border-right: 0.5px solid black;
     height: 100vh;
     overflow: none;
     display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.sidbar_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
 }
 .main{
     height: 100vh;
     overflow-x: none;
     overflow-y: scroll;
     width: 80vh;
+}
+#brand_logo{
+    width: 10vw;
+    padding: 5px;
+    margin: 10px 5px 30px 5px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+.sidebar_items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.sidebar_items > p {
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+
+}
+.fa-solid {
+    font-size: 25px;
+    padding: 5px;
+}
+.profile_image{
+    padding: 0;
+    margin: 0px;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
 }
