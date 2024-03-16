@@ -68,7 +68,7 @@
 .card{
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px #888888;
+    /* box-shadow: 1px 1px 10px 1px #888888; */
     height: auto;
     width: 480px;
     margin-bottom: 30px;
@@ -113,4 +113,33 @@
     opacity: 0.8;
     font-weight: bolder;
     cursor: pointer;
+}
+.handle_name {
+    display: flex;
+    align-items: center;
+}
+.icon_area {
+    display: flex;
+    justify-content: space-between;
+}
+.caption_area {
+    padding: 10px;
+}
+.comment_area {
+    padding: 10px;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+}
+.comment > i {
+    font-size: 14px;
+}
+.add_comment{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #888888;
+    padding: 10px;
+    margin-top: 5px;
 }
